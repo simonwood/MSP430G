@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>352501567</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\msp430g_pwc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g_pwc.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\Thomas1.d43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2252.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430x2xx_fet_1.pbi</file>
+      <file>$PROJ_DIR$\msp430x2xx_fet_1.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Thomas1.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430x2xx_fet_1.r43</file>
+      <file>$PROJ_DIR$\Debug\List\Thomas1.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g_pwc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2253.h</file>
+      <file>$PROJ_DIR$\Decode.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Decode.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Decode.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\msp430g_pwc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 14 1 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 1 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Thomas1.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 13 3 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msp430x2xx_fet_1.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 1 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 1 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\Thomas1.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Decode.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 14 1 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 1 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 10 4</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

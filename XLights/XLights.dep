@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3375920622</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\List\msp430g2_system.lst</file>
+      <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
+      <file>$PROJ_DIR$\Debug\List\flash.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\pwm.r43</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\ppm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\List\msp430g_pwc.lst</file>
+      <file>$PROJ_DIR$\flash.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\XLights.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\pwm.pbi</file>
+      <file>$PROJ_DIR$\XBus.h</file>
+      <file>$PROJ_DIR$\msp430g2_system.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.pbi</file>
+      <file>$PROJ_DIR$\pwm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\XBus.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\XBusConfig.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\XBusCommand.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\XBusCommand.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\XBusCRC.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g2_system.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g_pwc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2253.h</file>
+      <file>$PROJ_DIR$\XBus.c</file>
+      <file>$PROJ_DIR$\msp430g2_system.c</file>
+      <file>$PROJ_DIR$\flash.c</file>
+      <file>$PROJ_DIR$\msp430g_pwc.c</file>
+      <file>$PROJ_DIR$\pwm.c</file>
+      <file>$PROJ_DIR$\XBusCommand.c</file>
+      <file>$PROJ_DIR$\XBusCommand.h</file>
+      <file>$PROJ_DIR$\XBusConfig.c</file>
+      <file>$PROJ_DIR$\XBusConfig.h</file>
+      <file>$PROJ_DIR$\XBusCRC.c</file>
+      <file>$PROJ_DIR$\XBusCRC.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\XBusConfig.r43</file>
+      <file>$PROJ_DIR$\Debug\List\XLights.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\XBusCRC.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g_pwc.r43</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl430f.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g2_system.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\XLights.d43</file>
+      <file>$PROJ_DIR$\Debug\List\pwm.lst</file>
+      <file>$PROJ_DIR$\Debug\List\XBusConfig.lst</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\List\XBusCommand.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\XBus.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\List\XBus.lst</file>
+      <file>$PROJ_DIR$\Debug\List\XBusCRC.lst</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 39 50</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\XLights.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 55 22 21 19 16 23 24 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\XBus.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 57 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 9 6 48 42 37 53 56 44 0 15 14 17 36 32 34 41 1</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 9 6 48 42 37 53 56 44 0 15 14 17 36 32 34 41 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msp430g2_system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 2 49</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 9 6 48 42 37 53 56 44 0 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 9 6 48 42 37 53 56 44 0 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msp430g_pwc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 9 6 48 42 37 53 56 44 0 15 11 17 7 14 34</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 9 6 48 42 37 53 56 44 0 15 11 17 7 14 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\pwm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 51 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 9 6 15 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 9 6 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\XBusCommand.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 54 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 45 9 6 48 42 37 53 56 44 0 32 34 41 1 36 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 43 45 9 6 48 42 37 53 56 44 0 32 34 41 1 36 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\XBusConfig.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 52 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 45 9 6 48 42 37 53 56 44 0 34 41 1 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 43 45 9 6 48 42 37 53 56 44 0 34 41 1 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\XBusCRC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 58 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 45 9 6 36 48 42 37 53 56 44 0</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 43 45 9 6 36 48 42 37 53 56 44 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\XLights.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3 18 40 20 38 8 49 46 5 47</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

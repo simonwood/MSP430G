@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\project1.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\project2.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\project3.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\project4.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\project5.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\tutor_library.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

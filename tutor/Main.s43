@@ -1,0 +1,71 @@
+; --
+; Copyright 2009-2011 IAR Systems AB.
+;
+; Permission to use, copy, modify, and distribute this software for any
+; purpose with or without fee is hereby granted, provided that the above
+; copyright notice and this permission notice appear in all copies.
+;
+; THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+; WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+; MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+; ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+; WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+; ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+; OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+; --
+
+; --
+; MSP430 assembler tutorials
+;
+; $Revision: 8176 $
+; --
+
+; Compile tutor_library project before this.
+;
+            ; Begin a program module.
+            name    main
+
+            rseg    CSTACK:DATA:NOROOT
+            rseg    CODE:CODE:NOROOT(1)
+
+            ; Make these labels public for C-SPY.
+            public  myProgramStart
+            public  main
+
+            ; Define the external modules.
+            extern  max
+            extern  min
+            extern  exit
+
+            extern  myResetVector
+            require myResetVector
+
+myProgramStart:
+            mov.w   #SFE(CSTACK), sp
+            mov.w   #0x0b, &myVar
+
+main:
+            mov.w   &myVar, r12
+            mov.w   #4, r13
+            call    #max
+
+            br      #exit
+
+            rseg    DATA16_N:DATA:NOROOT(1)
+
+myVar:      ds16    1               ; Placeholder for the 'var' variable.
+
+            endmod
+
+            module  myResetVector
+
+            rseg    RESET:CONST:NOROOT(1)
+            public  myResetVector
+            extern  myProgramStart
+
+myResetVector:
+            dc16    myProgramStart
+
+            endmod
+
+            end

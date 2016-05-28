@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2244070121</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\msp430g2_system.c</file>
+      <file>$PROJ_DIR$\Mirf.h</file>
+      <file>$PROJ_DIR$\Mirf.cpp</file>
+      <file>$PROJ_DIR$\msp430_spi.cpp</file>
+      <file>$PROJ_DIR$\msp430_spi.h</file>
+      <file>$PROJ_DIR$\msp430g_pwc.c</file>
+      <file>$PROJ_DIR$\nRF24L01.h</file>
+      <file>$PROJ_DIR$\pwm.c</file>
+      <file>$PROJ_DIR$\XBusCRC.c</file>
+      <file>$PROJ_DIR$\Debug\List\msp430g2_system.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\GuyPyroV3.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g2_system.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\GuyPyroV3.d43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\List\GuyPyroV3.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g2_system.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ppm.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\XBusCRC.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\msprf24.h</file>
+      <file>$PROJ_DIR$\nrf_userconfig.h</file>
+      <file>$PROJ_DIR$\Debug\List\pwm.lst</file>
+      <file>$PROJ_DIR$\Debug\List\msp430g_pwc.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\Mirf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Mirf.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\XBusCRC.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\XBusCRC.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\XBusCRC.lst</file>
+      <file>$PROJ_DIR$\msprf24.c</file>
+      <file>$PROJ_DIR$\Debug\List\Mirf.lst</file>
+      <file>$PROJ_DIR$\msp430_spi.c</file>
+      <file>$PROJ_DIR$\Debug\List\msprf24.lst</file>
+      <file>$PROJ_DIR$\ppm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msprf24.pbi</file>
+      <file>$PROJ_DIR$\pwm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msprf24.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430_spi.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430_spi.r43</file>
+      <file>$PROJ_DIR$\flash.h</file>
+      <file>$PROJ_DIR$\msp430g2_system.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\pwm.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g_pwc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\ppm.c</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\pwm.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2253.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g_pwc.r43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\List\msp430_spi.lst</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl430f.r43</file>
+      <file>$PROJ_DIR$\flash.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ppm.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\msp430g2_system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 9 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Mirf.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 36 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 57 51 53 4 17 15 22 16 21 58 11 1 6</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 44 57 51 53 4 17 15 22 16 21 58 11 1 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msp430_spi.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 59 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 57 51 53 4 17 15 22 16 21 58 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 44 57 51 53 4 17 15 22 16 21 58 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msp430g_pwc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 29 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 51 53 47 41 4 17 15 22 16 21 58 11 1 6 23 24 25</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 55 51 53 47 41 4 17 15 22 16 21 58 11 1 6 23 24 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\pwm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 28 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 51 53 47 41</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 55 51 53 47 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\XBusCRC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 34 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 57 51 53 23 17 15 22 16 21 58 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 44 57 51 53 23 17 15 22 16 21 58 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\GuyPyroV3.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 30 33 43 19 50 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\GuyPyroV3.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 63 31 32 45 13 56 49 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msprf24.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 38 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 57 51 53 26 17 15 22 16 21 58 11 6 4 27</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 44 57 51 53 26 17 15 22 16 21 58 11 6 4 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msp430_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 59 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 57 51 53 4 17 15 22 16 21 58 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 44 57 51 53 4 17 15 22 16 21 58 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ppm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 51 53 39 41 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 51 53 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 18 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\ppm.c</name>
+      <tool>ICC430</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\flash.c</name>
+      <tool>ICC430</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\msp430g2_system.c</file>
+      <file>$PROJ_DIR$\Mirf.h</file>
+      <file>$PROJ_DIR$\Mirf.cpp</file>
+      <file>$PROJ_DIR$\msp430_spi.cpp</file>
+      <file>$PROJ_DIR$\msp430_spi.h</file>
+      <file>$PROJ_DIR$\msp430g_pwc.c</file>
+      <file>$PROJ_DIR$\nRF24L01.h</file>
+      <file>$PROJ_DIR$\pwm.c</file>
+      <file>$PROJ_DIR$\XBusCRC.c</file>
+      <file>$PROJ_DIR$\XBusCRC.h</file>
+      <file>$PROJ_DIR$\pwm.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$PROJ_DIR$\msp430g2_system.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2253.h</file>
+      <file>$PROJ_DIR$\Release\Obj\GuyPyroV3.pbd</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430g2_system.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\Mirf.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\XBusCRC.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\pwm.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430_spi.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\GuyPyroV3.txt</file>
+      <file>$PROJ_DIR$\Release\Obj\pwm.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430g_pwc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430g2_system.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430f149.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\msp430g2_system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Mirf.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 26 13 14 4 1 6</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 11 26 13 14 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msp430_spi.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 26 13 14 4</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 11 26 13 14 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msp430g_pwc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 13 14 12 10 4 1 6 9 27 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 13 14 12 10 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\pwm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 13 14 12 10</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 13 14 12 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\XBusCRC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 26 13 14 9</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 11 26 13 14 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\GuyPyroV3.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 18 19 21 25 24 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

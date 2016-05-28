@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>BavPyro/Debug</Project><Project>BavPyroV3/Debug</Project><Project>Charlie/Debug</Project><Project>DSMLights/Debug</Project><Project>GuyPyroV3/Release</Project><Project>Thomas1/Debug</Project><Project>TomBike/Debug</Project><Project>PyroV4/Debug</Project><Project>StuartServo/Debug</Project><Project>XLights/Debug</Project><Project>XPyro/Debug</Project></CurrentConfigs><CurrentProj>PyroV4</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>258</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1395</ColumnWidth1><ColumnWidth2>372</ColumnWidth2><ColumnWidth3>93</ColumnWidth3></Build>
+      <TerminalIO/>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1861</ColumnWidth1></Debug-Log>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-6204-23526</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/BavPyroV3</ExpandedNode><ExpandedNode>&lt;ws&gt;/DSMLights</ExpandedNode><ExpandedNode>&lt;ws&gt;/PyroV4</ExpandedNode><ExpandedNode>&lt;ws&gt;/XPyro</ExpandedNode><ExpandedNode>BavPyro</ExpandedNode><ExpandedNode>BavPyro/flash.c</ExpandedNode><ExpandedNode>Charlie</ExpandedNode><ExpandedNode>Charlie/msp430g_pwc.c</ExpandedNode><ExpandedNode>Thomas1</ExpandedNode><ExpandedNode>Thomas1/msp430g_pwc.c</ExpandedNode><ExpandedNode>Thomas1/msp430g_pwc.c/Output</ExpandedNode><ExpandedNode>TomBike</ExpandedNode><ExpandedNode>XLights</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-18061-23918</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-1624-24430</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Pyrov4\msp430g_pwc.c</Filename><XPos>0</XPos><YPos>364</YPos><SelStart>7041</SelStart><SelEnd>7041</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Pyrov4\ppm.c</Filename><XPos>0</XPos><YPos>60</YPos><SelStart>1245</SelStart><SelEnd>1245</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Pyrov4\msp430g2_system.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>194</SelStart><SelEnd>194</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Pyrov4\msp430g2_system.c</Filename><XPos>0</XPos><YPos>27</YPos><SelStart>875</SelStart><SelEnd>875</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00fcea38><key>iaridepm.enu1</key></Toolbar-00fcea38></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4><Row5><Sizes/></Row5><Row6><Sizes/></Row6><Row7><Sizes/></Row7><Row8><Sizes/></Row8><Row9><Sizes/></Row9><Row10><Sizes/></Row10></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>761</Bottom><Right>349</Right><x>-2</x><y>-2</y><xscreen>132</xscreen><yscreen>194</yscreen><sizeHorzCX>68750</sizeHorzCX><sizeHorzCY>194389</sizeHorzCY><sizeVertCX>182813</sizeVertCX><sizeVertCY>764529</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>192</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>194</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>194389</sizeHorzCY><sizeVertCX>68750</sizeVertCX><sizeVertCY>194389</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
