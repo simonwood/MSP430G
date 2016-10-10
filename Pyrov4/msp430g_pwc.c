@@ -72,16 +72,16 @@ volatile unsigned char* H4_PORTS[] =
 {
   &P3OUT,
   &P3OUT,
-  &P2OUT,
-  &P3OUT
+  &P3OUT,
+  &P2OUT
 };
 
 int H4_BITS[] = 
 {
-  BIT6,
   BIT7,
-  BIT3,
-  BIT5
+  BIT6,
+  BIT5,
+  BIT3
 };
 
 int  nChannels = 4;
@@ -104,12 +104,12 @@ void FirePyro(volatile unsigned char* port, int bit)
 
 static inline void Red()
 {
-  P3OUT = BIT4;
+  P3OUT = BIT3;
 }
 
 static inline void Green()
 {
-  P3OUT = BIT3;
+  P3OUT = BIT4;
 }
 
 static inline void White()
@@ -266,7 +266,7 @@ void DelayHighTrigger(unsigned int nWidth)
         nBaseState = 0;
         nLoopCount = 0;
       }
-      if (nWidth > 1500 && nLoopCount > 15)
+      if (nWidth > 1400 && nLoopCount > 15)
       {
         // Fire on high
         Fire();
@@ -277,14 +277,14 @@ void DelayHighTrigger(unsigned int nWidth)
     if (nBaseState == 1)
     {
       nLoopCount = 0;
-      if (nWidth > 1500)
+      if (nWidth > 1400)
       {
         nBaseState = 2;
       }
     }
     if (nBaseState == 0)
     {
-      if (nWidth < 1400 && nLoopCount >= 15)
+      if (nWidth < 1300 && nLoopCount >= 15)
       {
         nBaseState = 1;
       }
@@ -469,7 +469,7 @@ int main(void)
    BCSCTL3 |= LFXT1S_2;
    
    // Set all pins to output to stop floating
-   P1DIR = 0xFF;
+   P1DIR = 0xF9;
    P2DIR = (BIT1 | BIT3 | BIT4 | BIT5 | BIT6 | BIT7);
    P3DIR = 0xFF;
 

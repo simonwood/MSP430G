@@ -4,9 +4,9 @@
 #include "msp430g2_system.h"
 
 unsigned int nIdle = 0;
-#define RX_PORT P2IN
-#define RX_PORT_DIR P2DIR
-#define RX_PIN BIT0
+#define RX_PORT P1IN
+#define RX_PORT_DIR P1DIR
+#define RX_PIN BIT1
 
 int DetermineIdle()
 {

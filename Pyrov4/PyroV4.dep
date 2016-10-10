@@ -2,77 +2,69 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>1618875046</fileChecksum>
+  <fileChecksum>3509083316</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\msp430g2_system.c</file>
-      <file>$PROJ_DIR$\flash.c</file>
-      <file>$PROJ_DIR$\..\XPyro\msp430g_pwc.c</file>
-      <file>$PROJ_DIR$\msp430g_pwc.c</file>
-      <file>$PROJ_DIR$\ppm.c</file>
-      <file>$PROJ_DIR$\pwm.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\msp430g_pwc.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\msp430g_pwc.r43</file>
       <file>$PROJ_DIR$\ppm.h</file>
-      <file>$PROJ_DIR$\Debug\List\msp430g2_system.lst</file>
-      <file>$PROJ_DIR$\Debug\List\PyroV4.map</file>
-      <file>$PROJ_DIR$\Debug\List\msp430g_pwc.lst</file>
-      <file>$PROJ_DIR$\Debug\Obj\pwm.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\ppm.r43</file>
-      <file>$TOOLKIT_DIR$\lib\clib\cl430f.r43</file>
-      <file>$PROJ_DIR$\Debug\List\pwm.lst</file>
-      <file>$PROJ_DIR$\msp430g2_system.h</file>
-      <file>$PROJ_DIR$\pwm.h</file>
-      <file>$PROJ_DIR$\flash.h</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$PROJ_DIR$\Debug\List\ppm.lst</file>
-      <file>$PROJ_DIR$\Debug\List\flash.lst</file>
-      <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
-      <file>$PROJ_DIR$\Debug\Exe\PyroV4.d43</file>
-      <file>$PROJ_DIR$\Debug\Obj\msp430g2_system.r43</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\pwm.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\msp430g2253.h</file>
       <file>$PROJ_DIR$\Debug\Obj\ppm.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\flash.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\flash.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\msp430g2_system.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\List\msp430g2_system.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g2_system.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\ppm.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
       <file>$PROJ_DIR$\Debug\Obj\PyroV4.pbd</file>
+      <file>$PROJ_DIR$\Debug\List\flash.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.pbi</file>
+      <file>$PROJ_DIR$\flash.h</file>
+      <file>$PROJ_DIR$\Debug\List\ppm.lst</file>
+      <file>$PROJ_DIR$\Debug\Exe\PyroV4.d43</file>
+      <file>$PROJ_DIR$\Debug\Exe\PyroV4.ulp</file>
+      <file>$PROJ_DIR$\Debug\Obj\pwm.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl430f.r43</file>
+      <file>$PROJ_DIR$\pwm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g_pwc.pbi</file>
+      <file>$PROJ_DIR$\msp430g2_system.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\pwm.r43</file>
+      <file>$PROJ_DIR$\Debug\List\msp430g_pwc.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g_pwc.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430g2_system.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\pwm.lst</file>
+      <file>$TOOLKIT_DIR$\config\linker\lnk430g2553.xcl</file>
+      <file>$PROJ_DIR$\msp430g_pwc.c</file>
+      <file>$PROJ_DIR$\flash.c</file>
+      <file>$PROJ_DIR$\ppm.c</file>
+      <file>$PROJ_DIR$\Debug\List\PyroV4.map</file>
+      <file>$PROJ_DIR$\pwm.c</file>
+      <file>$PROJ_DIR$\msp430g2_system.c</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2253.h</file>
     </outputs>
     <file>
-      <name>$PROJ_DIR$\msp430g2_system.c</name>
+      <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 31</file>
+          <name>ULP430</name>
+          <file> 14</file>
         </tool>
         <tool>
-          <name>ICC430</name>
-          <file> 9 24</file>
+          <name>XLINK</name>
+          <file> 13 29</file>
         </tool>
       </outputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\flash.c</name>
+      <name>$PROJ_DIR$\Debug\Exe\PyroV4.d43</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
+          <name>XLINK</name>
           <file> 29</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 21 30</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 27 25 19 18</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 27 25 19 18</file>
+          <name>XLINK</name>
+          <file> 25 2 5 22 6 20 16</file>
         </tool>
       </inputs>
     </file>
@@ -81,21 +73,44 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 6</file>
+          <file> 18</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 11 7</file>
+          <file> 21 22</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 27 25 19 16 18 17 8</file>
+          <file> 0 7 11 19 17 32 3</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 27 25 19 16 18 17 8</file>
+          <file> 32 7 3 19 11 17 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 9 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 3 11 32</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 7 3 11</file>
         </tool>
       </inputs>
     </file>
@@ -104,129 +119,26 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 28</file>
+          <file> 1</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 20 13</file>
+          <file> 12 6</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 27 25 19 8 17 16</file>
+          <file> 3 7 32 0 17 19</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 27 25 19 8 17 16</file>
+          <file> 32 7 3 0 17 19</file>
         </tool>
       </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\pwm.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 26</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 15 12</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 27 25 19 16 17</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 27 25 19 16 17</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Exe\PyroV4.d43</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 10</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 22 30 24 7 13 12 14</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Obj\PyroV4.pbd</name>
-      <inputs>
-        <tool>
-          <name>BILINK</name>
-          <file> 29 31 6 28 26</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 23 10</file>
-        </tool>
-      </outputs>
-    </file>
-  </configuration>
-  <configuration>
-    <name>Release</name>
-    <outputs>
-      <file>$PROJ_DIR$\msp430g2_system.c</file>
-      <file>$PROJ_DIR$\flash.c</file>
-      <file>$PROJ_DIR$\msp430g_pwc.c</file>
-      <file>$PROJ_DIR$\ppm.c</file>
-      <file>$PROJ_DIR$\pwm.c</file>
-      <file>$PROJ_DIR$\Release\Exe\PyroV4.txt</file>
-      <file>$PROJ_DIR$\Release\Obj\flash.r43</file>
-      <file>$PROJ_DIR$\Release\Obj\msp430g2_system.r43</file>
-      <file>$PROJ_DIR$\Release\Obj\ppm.r43</file>
-      <file>$PROJ_DIR$\Release\Obj\msp430g_pwc.r43</file>
-      <file>$PROJ_DIR$\Release\Obj\pwm.pbi</file>
-      <file>$PROJ_DIR$\Release\Obj\pwm.r43</file>
-      <file>$PROJ_DIR$\Release\Obj\ppm.pbi</file>
-      <file>$PROJ_DIR$\Release\Obj\flash.pbi</file>
-      <file>$PROJ_DIR$\Release\Obj\msp430g2_system.pbi</file>
-      <file>$PROJ_DIR$\Release\Obj\msp430g_pwc.pbi</file>
-    </outputs>
-    <file>
-      <name>$PROJ_DIR$\msp430g2_system.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 14</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 7</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\flash.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 13</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 6</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\msp430g_pwc.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
@@ -234,7 +146,86 @@
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 9</file>
+          <file> 24 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 17 3 19 32</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 7 3 19 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msp430g2_system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 5</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\Release\Obj\msp430g_pwc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\flash.r43</file>
+      <file>$PROJ_DIR$\Release\Exe\PyroV4.txt</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430g_pwc.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\ppm.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430g2_system.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\pwm.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\flash.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ppm.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\msp430g2_system.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\pwm.r43</file>
+      <file>$PROJ_DIR$\msp430g_pwc.c</file>
+      <file>$PROJ_DIR$\flash.c</file>
+      <file>$PROJ_DIR$\ppm.c</file>
+      <file>$PROJ_DIR$\pwm.c</file>
+      <file>$PROJ_DIR$\msp430g2_system.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msp430g_pwc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 1</file>
         </tool>
       </outputs>
     </file>
@@ -243,11 +234,11 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 12</file>
+          <file> 8</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 8</file>
+          <file> 4</file>
         </tool>
       </outputs>
     </file>
@@ -256,20 +247,24 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 10</file>
+          <file> 6</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 11</file>
+          <file> 10</file>
         </tool>
       </outputs>
     </file>
     <file>
-      <name>[ROOT_NODE]</name>
+      <name>$PROJ_DIR$\msp430g2_system.c</name>
       <outputs>
         <tool>
-          <name>XLINK</name>
+          <name>BICOMP</name>
           <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 9</file>
         </tool>
       </outputs>
     </file>

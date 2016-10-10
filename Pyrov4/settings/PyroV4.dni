@@ -1,5 +1,5 @@
 [DebugChecksum]
-Checksum=51529522
+Checksum=1799902366
 [Stack]
 FillEnabled=0
 OverflowWarningsEnabled=1
@@ -44,13 +44,6 @@ ActionState=1
 [Trace1]
 Enabled=0
 ShowSource=1
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
 [CallStackLog]
 Enabled=0
 [DriverProfiling]
@@ -59,11 +52,26 @@ Mode=0
 Graph=0
 Symbiont=0
 Exclusions=
+[EEM State Storage]
+Buffer=BAAAAAAADAAAAAAAAAAAAAAA
+[EEM Sequencer]
+Buffer=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[EEM Cycle Counter 0]
+Counter0=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[EEM Cycle Counter 1]
+Counter1=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
 [Breakpoints]
 Count=0
 [FET]
 Clock mode=38
-Extended Clock mode=-1
+Extended Clock mode=1
 Secure Password=
 Extended Clock Control Enable=1
 Advanced Extended Clock Control=0
